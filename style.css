@@ -1,0 +1,223 @@
+body {
+  padding: 0;
+  margin: 0;
+  font-size: 0px;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+button {
+  font-family: 'Segoe UI', sans-serif;
+}
+
+p {
+  font-size: 14px;
+}
+
+.header {
+  height: 70px;
+  background-color: #58656d;
+  padding: 10px 20px;
+  box-sizing: border-box;
+  color: #e7edf3;
+}
+
+.title {
+  font-size: 32px;
+}
+
+.pull-to-right {
+  float: right;
+  font-size: 16px;
+  margin-top: 5px;
+  padding-left: 15px;
+}
+
+.border-left {
+  border-left: 1px solid #bfbfbf;
+}
+
+.title-log-out {
+  font-size: 14px;
+  color: #333333;
+  font-weight: 600;
+  text-align: center;
+}
+
+.user-icon {
+  padding-right: 17px;
+  padding-top: 9px;
+  font-size: 19px;
+}
+
+.title-log-out:hover {
+  color: #0d0d0d;
+  font-weight: 700;
+}
+
+.menu {
+  height: auto;
+  background-color: #fff;
+  padding: 0px;
+  border-bottom: 1px solid #bfbfbf;
+  font-size: 0;
+}
+
+.menu-item {
+  border: 0px;
+  border-right: 1px solid #bfbfbf;
+  height: 45px;
+  background-color: #fff;
+  padding: 7px 28px;
+  margin: 0;
+  font-size: 14px;
+  transition: 0.3s ease all;
+}
+
+.menu-item:hover {
+  background-color: #f2f2f2;
+}
+
+.menu-item:active {
+  background-color: #e6e6e6;  
+}
+
+.menu-item-active {
+  cursor: default
+}
+
+.w-100 {
+  height: 400px;
+}
+
+.carrosel-image {
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+}
+
+.carouselExampleCaptions .carrosel-image {
+  opacity: 0.5;
+}
+
+.carouselExampleCaptions:hover .carrosel-image {
+  opacity: 1;
+}
+
+.forum {
+  background-image: url("forum-bg.jpg");    
+}
+
+.podcast {
+  background-image: url("podcast-bg.jpg");    
+}
+
+.topic {
+  opacity: 0.8;
+  clear: both;
+  height: 300px;
+  margin-bottom: 90px;
+  transition: 0.5s ease all;
+}
+
+.topic:hover {
+  opacity: 1;
+}
+
+.topic-title {
+  font-weight: 600;
+  margin-bottom: 20px;
+}
+
+.body-image {
+  width: 50%;
+  height: 300px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  float: left;
+  margin-right: 20px;
+  opacity: 0.8;
+  transition: 0.5s ease all;
+}
+
+.right {
+  float: right;
+}
+
+.body-image:hover {
+  opacity: 1;
+}
+
+.evolucao {
+  background-image: url("evolucao.jpg");   
+}
+
+.futuro {
+  background-image: url("futuro.jpg")
+}
+
+.wave {
+    background-repeat: no-repeat;
+  transition: 0.5s ease all;
+
+
+  background-image: url(wave.jpg);
+  width: 100%;
+  z-index: -1;
+  float: left;
+  /* clear: both; */
+  height: 150%;
+  position: absolute;
+  top: 455px;
+  background-size: contain;
+  opacity: 0.1;
+  background-size: cover;
+}
+
+.forum-container {
+  width: 80%;
+  padding: 14px;
+  height: 85px;
+  border: 1px solid #d8cbcb;
+  border-radius: 3px;
+  margin: 30px 30px -10px 30px;
+  color: #5a5858;
+  background-color: #fff;
+}
+
+.forum-container:hover {
+  background-color: rgb(248, 248, 248);
+}
+
+.forum-icon {
+  font-size: 54px;
+    float: left;
+    color: #504f4f;
+    margin-right: 23px;
+}
+
+.forum-title {
+  font-family: 'Segoe UI';
+    color: #131313;
+    /* clear: both; */
+    float: left;
+}
+
+.forum-comments {
+  float: right;
+    /* clear: both; */
+    font-size: 11px;
+}
+
+.forum-last-update {
+  clear: right;
+  font-size: 11px;
+  float: right;
+  margin-top: 14px;
+}
+
+.forum-created-by {
+  font-size: 13px;
+  margin-top: 8px;
+  display: block;
+  float: left;
+}
